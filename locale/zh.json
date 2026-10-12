@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Markdown 表格对齐",
+    "description": "对 write 和 edit 工具修改的每个 Markdown 文件对齐管道表格，并报告改动的行数。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Markdown table fixer",
+    "description": "Aligns the pipe tables in every Markdown file the write and edit tools touch, and reports the lines it changed."
+  }
+}

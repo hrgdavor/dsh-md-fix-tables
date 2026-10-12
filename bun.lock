@@ -1,0 +1,22 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@hrg/dsh-md-fix-tables",
+      "dependencies": {
+        "@deepseek-ai/schemastery": "^3.18.1",
+        "@hrg/md-fix-tables": "^1.2.0",
+      },
+    },
+  },
+  "packages": {
+    "@deepseek-ai/cosmokit": ["@deepseek-ai/cosmokit@1.8.5", "", {}, "sha512-LXsrlem9z8dq4sLflj2yuCuYX7KqhdzF5hZly3eZyuTo8d6oDSOXuEgC5DbQWKW+lksm6zmOutQLsP/ma6wR6A=="],
+
+    "@deepseek-ai/schemastery": ["@deepseek-ai/schemastery@3.18.4", "", { "dependencies": { "@deepseek-ai/cosmokit": "~1.8.5", "@standard-schema/spec": "^1.1.0" } }, "sha512-SSXO6tYuyrIqKVbmOnIq0s+riUywYzouFMcnBluHF9n4KMo2G8HvEzhCYj6pj2617/glOjbJuVInJ9hfONsjkg=="],
+
+    "@hrg/md-fix-tables": ["@hrg/md-fix-tables@1.2.0", "", { "bin": { "md-fix-tables": "md-fix-tables.js" } }, "sha512-WnxNP+bkT5jYF1TJcgH9Dbx1ueFJAj1ro8wGIxbK/mYVInblvzoEPDXTMKfomo7t4ssAr1EUURDREg+QEp1Ndg=="],
+
+    "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
+  }
+}

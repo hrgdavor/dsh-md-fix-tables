@@ -1,0 +1,15 @@
+# Bundle layer for @hrg/dsh-md-fix-tables.
+#
+# It inserts one row; every option has a default, so `config: {}` is a working installation.
+# Override any of it from your profile's cordis.patch.yml — a matching override replaces the whole
+# `config`, so restate the fields you want to keep:
+#
+# - id: md-fix-tables
+#   config:
+#     report: always
+#     tools: [write, edit]
+#     extensions: ['.md', '.markdown']
+- insert:
+    - id: md-fix-tables
+      name: '@hrg/dsh-md-fix-tables'
+      config: {}

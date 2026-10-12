@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Aligned Markdown table">
+  <rect width="128" height="128" rx="26" fill="#0b1220"/>
+  <g stroke="#38bdf8" stroke-width="3" stroke-linecap="round" fill="none">
+    <rect x="18" y="28" width="92" height="72" rx="10"/>
+    <path d="M18 52h92M18 76h92"/>
+    <path d="M50 28v72M82 28v72" stroke="#1d4e73"/>
+  </g>
+  <g fill="#7dd3fc">
+    <rect x="26" y="36" width="16" height="8" rx="3"/>
+    <rect x="58" y="36" width="16" height="8" rx="3"/>
+    <rect x="90" y="36" width="14" height="8" rx="3"/>
+    <rect x="26" y="60" width="16" height="8" rx="3"/>
+    <rect x="58" y="60" width="16" height="8" rx="3"/>
+    <rect x="90" y="60" width="14" height="8" rx="3"/>
+    <rect x="26" y="84" width="16" height="8" rx="3"/>
+  </g>
+  <g stroke="#22c55e" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M62 88h24"/>
+    <path d="M94 82v12"/>
+    <path d="M88 88l6 6 6-6"/>
+  </g>
+</svg>

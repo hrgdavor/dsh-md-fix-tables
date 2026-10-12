@@ -1,0 +1,60 @@
+{
+  "name": "@hrg/dsh-md-fix-tables",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness bundle: aligns the Markdown pipe tables every write/edit touched and reports what changed",
+  "license": "MIT",
+  "author": "Davor hrg",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "cordis",
+    "markdown",
+    "tables",
+    "formatter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrgdavor/dsh-md-fix-tables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hrgdavor/dsh-md-fix-tables/issues"
+  },
+  "homepage": "https://github.com/hrgdavor/dsh-md-fix-tables#readme",
+  "scripts": {
+    "test": "bun test",
+    "test:node": "node --test"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1",
+    "@hrg/md-fix-tables": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
